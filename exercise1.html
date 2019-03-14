@@ -1,16 +1,5 @@
 <!DOCTYPE html>
 <html>
-    <style>
-        .main{
-            text-align: left;
-        }
-        .in-main{
-            margin-bottom: 50px;
-        }
-        .main-form{
-            margin-bottom: 30px;
-        }
-    </style>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,66 +7,87 @@
         <title>Adhitya Utomo - Exercise 1</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     </head>
+    <style>
+        .main{
+            padding-left: 15%;
+            padding-right: 15%;
+            background: cyan;
+            min-height: 700px;
+            width: 100%;
+        }
+        .sub-main{
+            background: white;
+        }
+        .in-main{
+            margin-bottom: 20px;
+            padding: 25px;
+        }
+        .main-form{
+            padding-bottom: 30px;
+        }
+    </style>
     <body>
         <div class="main">
-            <div class="in-main" style="text-align:center;">
-                <h1>Welcome To My Simple Project</h1>
-                <h4><em>This is my first exercise project</em></h4>
-            </div>
-            <div class="in-main">
-                <h1>About Me</h1>
-                <div>
-                    <span>My name is <b>Adhitya Utomo</b></span></br>
-                    <span>From <b>Bali</b></span></br>
-                    <span>My email is <a href="#"><b>utomoadhitya@gmail.com</b></a></span></br>
-                    <span>My phone number <b>085738899855</b></span></br>
-                    <span>
-                        My hobbies are
-                        <ul>
-                            <li>Gaming</li>
-                            <li>Reading</li>
-                            <li>Sport</li>
-                        </ul> 
-                    </span></br>
+            <div class="sub-main">
+                <div class="in-main" style="text-align:center;">
+                    <h1 style="margin-top:unset;">Welcome To My Simple Project</h1>
+                    <h4><em>This is my first exercise project</em></h4>
                 </div>
-            </div>
-            <div class="in-main">
-                <h2>This is my simple form</h2>
-                <form action="">
-                    <div class="main-form">
-                        <label for="username">Username</label>
-                        <input type="text" id="username" name="username" placeholder="Fill this field" value="adhitya_utomo">
+                <div class="in-main" style="background: antiquewhite;">
+                    <h1>About Me</h1>
+                    <div>
+                        <span>My name is <b>Adhitya Utomo</b></span></br>
+                        <span>From <b>Bali</b></span></br>
+                        <span>My email is <a href="#"><b>utomoadhitya@gmail.com</b></a></span></br>
+                        <span>My phone number <b>085738899855</b></span></br>
+                        <span>
+                            My hobbies are
+                            <ul>
+                                <li>Gaming</li>
+                                <li>Reading</li>
+                                <li>Sport</li>
+                            </ul> 
+                        </span></br>
                     </div>
-                    <div class="main-form">
-                        <label for="password">Password</label>
-                        <input type="password" id="password" name="password" placeholder="Fill this field">
-                    </div>
-                    <div class="main-form">
-                        <label for="address">Address</label>
-                        <textarea name="address" id="address" placeholder="Fill this field">Tabanan</textarea>
-                    </div>
-                    <div class="main-form">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="Fill this field" value="utomoadhitya@gmail.com">
-                    </div>
-                    <div class="main-form">
-                        <label for="phone">Phone</label>
-                        <input type="number" id="phone" name="phone" placeholder="Fill this field" value="085738899855">
-                    </div>
-                    <div class="main-form">
-                        <label for="gender">Gender</label>
-                        <input type="radio" name="gender" value="1"> Men
-                        <input type="radio" name="gender" value="0"> Woman
-                    </div>
-                    <div class="main-form">
-                        <label for="country">Country</label>
-                        <select name="country" id="country">
-                            <option value="id">Indonesia</option>
-                            <option value="us">USA</option>
-                            <option value="ar">Arab</option>
-                        </select>
-                    </div>
-                </form>
+                </div>
+                <div class="in-main" style="margin-bottom:unset;">
+                    <h2>This is my simple form</h2>
+                    <form action="">
+                        <div class="main-form">
+                            <label for="username">Username</label>
+                            <input type="text" id="username" name="username" placeholder="Fill this field" value="adhitya_utomo">
+                        </div>
+                        <div class="main-form">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" placeholder="Fill this field">
+                        </div>
+                        <div class="main-form">
+                            <label for="address">Address</label>
+                            <textarea name="address" id="address" placeholder="Fill this field">Tabanan</textarea>
+                        </div>
+                        <div class="main-form">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Fill this field" value="utomoadhitya@gmail.com">
+                        </div>
+                        <div class="main-form">
+                            <label for="phone">Phone</label>
+                            <input type="number" id="phone" name="phone" placeholder="Fill this field" value="085738899855">
+                        </div>
+                        <div class="main-form">
+                            <label for="gender">Gender</label>
+                            <input type="radio" name="gender" value="1"> Men
+                            <input type="radio" name="gender" value="0"> Woman
+                        </div>
+                        <div class="main-form">
+                            <label for="country">Country</label>
+                            <select name="country" id="country">
+                                <option value="id">Indonesia</option>
+                                <option value="us">USA</option>
+                                <option value="ar">Arab</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
         
